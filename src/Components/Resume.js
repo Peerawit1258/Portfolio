@@ -44,20 +44,29 @@ function Resume() {
                     /> */}
                 </div>
                 <div className="small-title u-small-title-margin">
+                    <SmallTitle icon={briefcase} title={"Exchange"} />
+                </div>
+                { <ResumeItem 
+                        year={'13 MAR 2023 - 12 MAY 2023'} 
+                        title={'Higashikawa Arts Exchange center'}
+                        subTitle={'Higashikawa Short-Term Japanese Language Course'}
+                        text={'2 months'} 
+                    /> }
+                <div className="small-title u-small-title-margin">
                     <SmallTitle icon={briefcase} title={"Experience"} />
                 </div>
                 <div className="resume-content ">
                     <ResumeItem 
                         year={"1 JUN 2022 - 30 SEP 2022"} 
                         title={"Innova Interactive Studio"}
-                        subTitle={"Internship Unity Programer"}
+                        subTitle={"Internship Unity Programmer"}
                         text={""} 
                     />
                     { <ResumeItem 
-                        year={'13 MAR 2023 - 12 MAY 2023'} 
-                        title={'Higashikawa Arts Exchange center'}
-                        subTitle={'Higashikawa Short-Term Japanese Language Course'}
-                        text={'2 months'} 
+                        year={'1 OCT 2023 - 31 MAR 2023'} 
+                        title={'Parapluie Studio'}
+                        subTitle={'Unity Programmer'}
+                        text={''} 
                     /> }
                     {/* <ResumeItem 
                         year={'2015 - 2017'} 
