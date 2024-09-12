@@ -52,6 +52,14 @@ import m4 from '../img/MonopolyGame/m4.png'
 import m5 from '../img/MonopolyGame/m5.png'
 import m6 from '../img/MonopolyGame/m6.png'
 import m7 from '../img/MonopolyGame/m7.png'
+
+import r1 from '../img/Roguelike/R1.png'
+import r2 from '../img/Roguelike/R2.png'
+import r3 from '../img/Roguelike/R3.png'
+import r4 from '../img/Roguelike/R4.png'
+import r5 from '../img/Roguelike/R5.png'
+import r6 from '../img/Roguelike/R6.png'
+
 import Member from './Member';
 import MemberCon from './MemberCon';
 
@@ -182,7 +190,7 @@ const Port = () => {
 
         <div className='other'>
             <p><b>Monopoly Game</b></p>
-            <h6>Unity / practice game (2023)</h6>
+            <h6>Unity / practice game (2023)<VolumeOffIcon/></h6>
             <div className='video'>
                 <img src={m3} alt='' />
             </div>
@@ -193,6 +201,22 @@ const Port = () => {
                 <img src={m5} alt='' />
                 <img src={m6} alt='' />
                 <img src={m7} alt='' />
+            </div>
+        </div>
+
+        <div className='other'>
+            <p><b>Roguelike Project Ver.Test</b></p>
+            <h6>Solo Project(2024)<VolumeOffIcon/></h6>
+            <div className='video'>
+                <iframe width="640" height="480" src="https://www.youtube.com/embed/t7nBtVGFNIw?si=WA9RHkEkg2hDX_t1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            <div className='image'>
+                <img src={r1} alt='' />
+                <img src={r2} alt='' />
+                <img src={r3} alt='' />
+                <img src={r4} alt='' />
+                <img src={r5} alt='' />
+                <img src={r6} alt='' />
             </div>
         </div>
         
