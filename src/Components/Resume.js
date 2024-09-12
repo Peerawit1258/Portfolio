@@ -63,7 +63,7 @@ function Resume() {
                         text={""} 
                     />
                     { <ResumeItem 
-                        year={'1 OCT 2023 - 31 MAR 2023'} 
+                        year={'1 OCT 2023 - 31 MAR 2024'} 
                         title={'Parapluie Studio'}
                         subTitle={'Unity Programmer'}
                         text={''} 
