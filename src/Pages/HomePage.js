@@ -20,7 +20,7 @@ const HomePage = () => {
                     <a href='https://www.facebook.com/peerawit.w'><div className='icon i-facebook'><FacebookIcon/></div></a>
                 </motion.div>
                 <motion.div whileHover={{scale:1.1}} whileTap={{scale:0.9}} className='tran'>
-                    <a href='https://github.com/peerawitWisit'><div className='icon i-github'><GithubIcon/></div></a>
+                    <a href='https://github.com/Peerawit1258'><div className='icon i-github'><GithubIcon/></div></a>
                 </motion.div>
             </div>
         </div>
